@@ -23,4 +23,4 @@ if prestação_mensal > prestação_máxima:
     print(f'O qual redusiria a dívida mensal de R${prestação_mensal:.2f} para {nova_prestação_mensal:.2f}')
 else:
     print('Este financiamento pode ser realizado.')
-    print(f'Sua parcela mensal seria de R${prestação_mensal}.')
+    print(f'Sua parcela mensal seria de R${prestação_mensal:.2f}.')
