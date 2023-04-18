@@ -11,7 +11,7 @@ anos = int(input('Digite em quanto anos quitar a dívida: '))
 meses = anos * 12
 
 prestacao_mensal = valor_casa / meses
-prestacao_máxima = (salario * 30) / 100
+prestacao_maxima = (salario * 30) / 100
 
 if prestacao_mensal > prestacao_maxima:
     print('Infelizmente você não pode financiar esse imóvel.')
