@@ -3,7 +3,7 @@
 soma = 0
 cont = 0
 for numero in range(1, 7):
-    numero = int(input('Digite um número: '))
+    numero = int(input(f'Digite {numero} número: '))
     if numero % 2 == 0:
         soma = soma + numero
         cont = cont + 1
